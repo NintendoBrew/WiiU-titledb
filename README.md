@@ -1,3 +1,4 @@
-# TitleDB-2.0
+# TitleDB-0.1a
 
-A DSi TitleDB, thanks to <a href="https://github.com/Multimegamander/">Multimegamander</a>!
+Wii U tite db 
+
