@@ -6,7 +6,7 @@
   }]);
 
   titledbApp.controller('TitleListController', function TitleListController($scope, $http) {
-    $http.get('https://haxx.guide/API/v0').then(function(response){
+    $http.get('http://nintendobrew.com/WiiU-API/').then(function(response){
       $scope.titles = response.data.sort(function(a, b){
         if(a.name.toUpperCase() < b.name.toUpperCase()) return -1;
         if(a.name.toUpperCase() > b.name.toUpperCase()) return 1;
