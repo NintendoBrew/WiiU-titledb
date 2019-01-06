@@ -1,0 +1,6 @@
+59 11 * * * killall --quiet --older-than 30m titledb_cli
+
+* * * * * ( cd /usr/src/titledb ; /usr/local/bin/titledb_cli cron ) > /var/log/titledb/titledb_cli.cron.log 2>&1
+
+*/30 * * * * ( cd /usr/src/titledb ; /usr/local/bin/titledb_cli github ) >/var/log/titledb/titledb_cli.github.log 2>&1
+
